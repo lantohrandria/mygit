@@ -5,4 +5,5 @@
 
 ## Pull a remote branch to local
 *Take care, pull will be done to the current local branch* (cf git checkout)
+
 `git pull <remote_repository>:<remote_branch>`
