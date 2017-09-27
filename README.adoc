@@ -2,3 +2,7 @@
 
 ## Push local branch to a remote branch with a different name
 `git push <remote_repository> <local_branch>:<remote_branch>`
+
+## Pull a remote branch to local
+*Take care, pull will be done to the current local branch* (cf git checkout)
+`git pull <remote_repository>:<remote_branch>`
