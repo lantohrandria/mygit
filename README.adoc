@@ -1,0 +1,4 @@
+# my git
+
+## Push local branch to a remote branch with a different name
+`git push <remote_repository> <local_branch>:<remote_branch>`
