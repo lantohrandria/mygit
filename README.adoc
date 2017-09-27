@@ -7,3 +7,7 @@
 *Take care, pull will be done to the current local branch* (cf git checkout)
 
 `git pull <remote_repository>:<remote_branch>`
+
+## Commit local changes
+`git add .`
+`git commit -m "<message>"`
