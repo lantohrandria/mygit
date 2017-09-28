@@ -16,34 +16,34 @@
 # Code review
 ## Check list
 ### General
-* Functionality is implemented in a simple, maintainable, and reusable manner
-* Find pieces of code which could be replaced by frameworks, favor using well proven frameworks and libraries as opposed to reinventing the wheel by writing your own
+. Functionality is implemented in a simple, maintainable, and reusable manner
+. Find pieces of code which could be replaced by frameworks, favor using well proven frameworks and libraries as opposed to reinventing the wheel by writing your own
 
 ### Clean code
-* Use of descriptive and meaningful variable, method and class names as opposed to relying too much on comments
-** For example, use of variables named _i_, _list_ is not correct
-* Class and functions should be small and focus on doing one thing
-* Method should not take too many imput parameter
-* Detect dead code (commented out code or inside a _false_ branch)
-* Use of the standard code formatting template
-* Log must be used reasonably
-* Presence of hard coded value
-* Don't ignore or suppress exception, except for good reasons which must be justified
-* Object-Oriented Analysis and Design (OOAD) Principles
-** Single Responsibility Principle (SRS): a single class or function must have a unique responsibility
-** Open Closed Principle: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions.
-** Liskov substitutability principle: The child class should not change the behavior (meaning) of the parent class. The child class can be used as a substitute for a base class.
-** Interface segregation: Do not create lengthy interfaces, instead split them into smaller interfaces based on the functionality. The interface should not contain any dependencies (parameters), which are not required for the expected functionality.
-** Dependency Injection: Do not hardcode the dependencies, instead inject them.
+. Use of descriptive and meaningful variable, method and class names as opposed to relying too much on comments
+.. For example, use of variables named _i_, _list_ is not correct
+. Class and functions should be small and focus on doing one thing
+. Method should not take too many imput parameter
+. Detect dead code (commented out code or inside a _false_ branch)
+. Use of the standard code formatting template
+. Log must be used reasonably
+. Presence of hard coded value
+. Don't ignore or suppress exception, except for good reasons which must be justified
+. Object-Oriented Analysis and Design (OOAD) Principles
+.. *Single Responsibility Principle (SRS)*: a single class or function must have a unique responsibility
+.. *Open Closed Principle*: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions.
+.. *Liskov substitutability principle*: The child class should not change the behavior (meaning) of the parent class. The child class can be used as a substitute for a base class.
+.. *Interface segregation*: Do not create lengthy interfaces, instead split them into smaller interfaces based on the functionality. The interface should not contain any dependencies (parameters), which are not required for the expected functionality.
+.. *Dependency Injection*: Do not hardcode the dependencies, instead inject them.
 
 ### Documentation
-* Comments must explain *why you are doing*, not _what you are doing_. All hacks, workaround and temporary fixes must be commented
-* Pending tasks mention pending tasks in your to-do comments, which can be tracked easily.
-* Code should be commented
-* Comments should be useful and understandable
+. Comments must explain *why you are doing*, not _what you are doing_. All hacks, workaround and temporary fixes must be commented
+. Pending tasks mention pending tasks in your to-do comments, which can be tracked easily.
+. Code should be commented
+. Comments should be useful and understandable
 
 ### Tests
-* Ensure that tests are written properly
-* Ensure that tests have been run
-* Tests should be relevant
-* Tests coverage must be sufficient
+. Ensure that tests are written properly
+. Ensure that tests have been run
+. Tests should be relevant
+. Tests coverage must be sufficient
